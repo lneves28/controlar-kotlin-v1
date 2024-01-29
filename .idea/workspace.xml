@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b373b00-0655-461a-8f0c-77a14abbd78d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.GenericsKt.executor": "Debug",
+    "Kotlin.HerancaKt.executor": "Run",
     "Kotlin.IntroducaoKt.executor": "Run",
     "Kotlin.ListaKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
@@ -53,16 +54,23 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.NullSafetyKt">
-    <configuration name="IntroducaoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.controlar.kotlin.funcoes.IntroducaoKt" />
+  <component name="RunManager" selected="Kotlin.HerancaKt">
+    <configuration name="GenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.controlar.kotlin.treinamento.introducao.GenericsKt" />
       <module name="controlar-kotlin-v1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.controlar.kotlin.collections.ListaKt" />
+    <configuration name="HerancaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.controlar.kotlin.treinamento.introducao.HerancaKt" />
+      <module name="controlar-kotlin-v1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntroducaoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.controlar.kotlin.funcoes.IntroducaoKt" />
       <module name="controlar-kotlin-v1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,10 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.HerancaKt" />
+        <item itemvalue="Kotlin.GenericsKt" />
         <item itemvalue="Kotlin.NullSafetyKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.IntroducaoKt" />
-        <item itemvalue="Kotlin.ListaKt" />
       </list>
     </recent_temporary>
   </component>
@@ -101,5 +110,16 @@
       <updated>1706115259667</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/kotlin/treinamento/introducao/Generics.kt</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
